@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PLCollectionViewWaterfallLayout.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate,PLCollectionViewDelegateWaterfallLayout>
 
 
 @end
